@@ -1,8 +1,8 @@
 {
   "name": "stylescribe",
   "version": "1.0.0",
-  "description": "Documentation builder for CSS",
-  "main": "index.js",
+  "description": "Documentation/styleguide generator for CSS files",
+  "main": "lib/stylescribe.js",
   "scripts": {
     "test": "jasmine"
   },
