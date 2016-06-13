@@ -1,0 +1,18 @@
+{
+  "name": "stylescribe",
+  "version": "1.0.0",
+  "description": "Documentation builder for CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Keith Clark",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithclark/stylescribe.git"
+  }
+}
