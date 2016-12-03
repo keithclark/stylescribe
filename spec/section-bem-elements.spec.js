@@ -26,7 +26,7 @@ describe('BEM elements section', function() {
     });
 
     it('should throw if it contains more than one token', function() {
-        var cssText = '/*=== My Component\n\nElements\n--------\n\nbtn--primary   Primary button\n\nText ===*/';
+        var cssText = '/*=== My Component\n\nElements\n--------\n\nbtn--primary \t Primary button\n\nText ===*/';
         expect(parser.parse.bind(parser, cssText)).toThrowError('Expected EOF, got TEXT at line 8');
     });
     
